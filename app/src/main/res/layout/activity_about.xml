@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ser"
+        android:layout_marginTop="20dp"
+
+        android:text=" SERVICES"
+        android:textSize="24sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic|bold"
+        android:fontFamily="sans-serif-light"
+        android:gravity="left" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abut"
+        android:layout_below="@id/ser"
+        android:text="As the whole world is fighting the pandemic of COVID-19, Pakistan is also bringing solution to tackle COVID-19 for its citizens. This App will help individual to find real-time data of COVID-19 cases in different affected countries. The App keep data collected from different sources including Johns Hopkins University, the New York Times, Worldometers, and Apple reports to give you a comprehensive view of the pandemic.
+“With this Corona App, let us a one more step toward Safe and Strong Country”-Extending Support and Services through Smart Technologies."
+        android:textSize="18sp"
+android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/reed"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/at"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/abut"
+        android:text="We can control spread of virus by avoiding gatherings and also by wearing masks can help to prevent the spread of virus."
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/reed"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center" />
+
+
+</RelativeLayout>
